@@ -31,7 +31,9 @@ const MyComponent = (/* props */ {name, age, email, addr})=>{
         </Fragment>
    )
 }
-/* props의 기본값 설정하기  컴포넌트명.defaultProps={} */
+
+/* props의 기본값 설정하기  컴포넌트명.defaultProps={} 
+필수는 아니지만 기본값이 필수로 필요하다면 지정해줌*/   
 MyComponent.defaultProps ={
     name : "이름없음",
     age : 0,

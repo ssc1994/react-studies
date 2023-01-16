@@ -34,7 +34,6 @@ const myStyle = {color : 'red', backgroundColor : 'yellow', fontSize : 25};
         {age === 30 ? <h3>20입니다</h3> : null}
       </div>
     
-    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

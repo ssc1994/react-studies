@@ -27,7 +27,6 @@ const EventComponent = () => {
     const handlePress = (e) => {
         if( e.keyCode === 13){
             handleClick();
-
         }
     }
 
@@ -43,7 +42,6 @@ const EventComponent = () => {
             <button type="button" onClick={handleClick}>클릭미</button>
         </>
     )
-
 }
 
 export default EventComponent;

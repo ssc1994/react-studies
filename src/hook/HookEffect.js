@@ -30,9 +30,18 @@ const HookEffect = () => {
     */
 
    //useEffect(함수,[state]) - 특정값이 랜더링 될때만 실행됩니다.
-   useEffect(()=>{
-    console.log(`age or name이 변경될때 실행합니다.`)
-   }, [age,name]);
+//    useEffect(()=>{
+//     console.log(`age or name이 변경될때 실행합니다.`)
+//    }, [age,name]);
+
+//    useEffect( () => {
+//     console.log("name이 변경될때 render 됩니다.")
+//     //컴포넌트가 unmount될 때 실행됩니다.
+//     return ()=>{
+//         console.log('unmount됩니다.');          //랜더링이 그려지면, 기존화면은 지워짐
+//         console.log(`update전 값  : ${name}`);  //state는 직전값이 나온다.
+//     }
+//    }, [name])
 
     return (
         <>

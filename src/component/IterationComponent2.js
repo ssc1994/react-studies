@@ -9,7 +9,6 @@ const IterationComponent2 = () => {
         { id: 3, topic: 'seeyou' }
     ];
     const [list, setList] = useState(arr);
-
     
     //2. map함수를 이용해서 li태그로 생성
     //e=>e.target.remove()
@@ -36,18 +35,13 @@ const IterationComponent2 = () => {
 
     //5. 삭제
     //5-1 화살표함수는 익명함수라 호이스팅이 불가능하다.
-    //
     const handleRemove = (a) => {
         console.log(a);        //키
-
         //filter - 콜백의 리턴에 true인 값을 가지고 새로운 배열 생성
         // const ex = [1,2,3,4,5].filter( (item) => item!=3);
         const newList = list.filter( (item) => item.id !== a)
         setList(newList)
     }   
-
-
-
     return (
         <>
             <h3>목록 추가하기</h3>

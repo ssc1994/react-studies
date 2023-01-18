@@ -20,14 +20,11 @@ const EventComponent2 = () => {
         <>
         <hr/>
             <h3>리액트 이벤트 핸들링 ( 객체 )</h3>
-            
             <input type="text" name ="name" onChange={handleChange} value = {data.name} />
             <h3>결과 : {data.name}</h3>
             <input type="text" name ="topic" onChange={handleChange} value = {data.topic} />
             <h3>결과 : {data.topic}</h3>
             <button type="button" onClick={handleClick}>클릭미</button>
-
-
         </>
     )
 }

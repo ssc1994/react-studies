@@ -19,6 +19,7 @@ const Home = () => {
                 {/*  Navigate컴포넌트 */}
                 <li><Link to="/mypage">MyPage</Link></li>
             </ul>
+            
         </div>
     )
 }
